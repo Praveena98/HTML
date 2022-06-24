@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>form</title>
+	<meta charaset ="utf-8">
+	<meta name="description" content ="html lab">
+	<meta name="keyword" content ="HTML,CSS,XML,JS">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form>
+		<label for="name">Name: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</label>
+		<input type="text" id="name" name="name" placeholder="please enter your name" required maxlength="25">
+		<br><br>
+
+		<label for="email">Email: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</label>
+		<input type="text" id="email" name="email" value=" test@example.com" required autofocus=""><br><br>
+
+		<label for ="pwd">Password: &nbsp;&nbsp;&nbsp;  </label>
+		<input type="Password" id="pwd" name="pwd" required minlength="6"> <br><br>
+
+		<label for="category"> Category:&nbsp; &nbsp;&nbsp;&nbsp;</label>
+		<select id=" category" name="category" > 
+			<option value="student">Student</option>
+			<option value="employee">Employee</option>
+			<option value="freelancer" selected>Freelancer</option>
+		</select><br><br>
+
+	    <label for="event date">Event date:&nbsp; &nbsp;</label>
+		<input type="date" id="event date" name="event date" required> <br><br>
+
+		<label for ="ticket">Ticket:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</label>
+		<input type="radio" name="show" value="1 ticket">1 ticket
+        <input type="radio" name="show" value="2 ticket" checked>2 ticket
+        <input type="radio" name="show" value="3 ticket">3 ticket <br><br>
+
+        <label for="payment">Payment:&nbsp; &nbsp;&nbsp;&nbsp;</label> 
+        <input type="checkbox" name="payment" value="payment" required>
+        <label for="payment">Online Payment</label> <br><br>
+       
+        <label for="note">Note:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea rows="5"cols="20" name="note" placeholder="Message......"></textarea> <br><br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
